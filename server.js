@@ -9,7 +9,7 @@ app.get('/', (req, res) => {
   res.send('Hello from Express.js!'); // Send a plain text response
 });
 console.log(
-"Endhrajith"
+"Endhrajih"
 )
 // Start the server and listen on the specified port
 app.listen(port, () => {
