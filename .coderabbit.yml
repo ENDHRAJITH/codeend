@@ -1,0 +1,12 @@
+# .coderabbit.yml
+version: 1.0
+
+build:
+  commands:
+    - echo "No build step needed"
+
+run:
+  command: node server.js
+
+deploy:
+  type: docker
