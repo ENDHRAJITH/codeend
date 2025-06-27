@@ -8,7 +8,7 @@ const port = 3000;                  // Define the port the server will listen on
 app.get('/', (req, res) => {
   res.send('Hello from Express.js!'); // Send a plain text response
 });
-
+ 
 // Start the server and listen on the specified port
 app.listen(port, () => {
   console.log(`Express server running at http://localhost:${port}`);
